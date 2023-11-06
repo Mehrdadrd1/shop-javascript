@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoora Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="cardParent">
+          <span id="card"
+            ><!-- 7 -->
+            <div class="loader loader--style7" title="6">
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="24px"
+                height="30px"
+                viewBox="0 0 24 30"
+                style="enable-background: new 0 0 50 50"
+                xml:space="preserve"
+              >
+                <rect x="0" y="0" width="4" height="20" fill="#333">
+                  <animate
+                    attributeName="opacity"
+                    attributeType="XML"
+                    values="1; .2; 1"
+                    begin="0s"
+                    dur="0.6s"
+                    repeatCount="indefinite"
+                  />
+                </rect>
+                <rect x="7" y="0" width="4" height="20" fill="#333">
+                  <animate
+                    attributeName="opacity"
+                    attributeType="XML"
+                    values="1; .2; 1"
+                    begin="0.2s"
+                    dur="0.6s"
+                    repeatCount="indefinite"
+                  />
+                </rect>
+                <rect x="14" y="0" width="4" height="20" fill="#333">
+                  <animate
+                    attributeName="opacity"
+                    attributeType="XML"
+                    values="1; .2; 1"
+                    begin="0.4s"
+                    dur="0.6s"
+                    repeatCount="indefinite"
+                  />
+                </rect>
+              </svg>
+            </div>
+          </span>
+          <a href="/card.html">
+            <i id="cardIcon" class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <section id="registerSection">
+      <h2>Register</h2>
+      <form action="" id="register">
+        <div class="formControl">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Name" />
+        </div>
+        <div class="formControl">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Email" />
+        </div>
+        <div class="formControl">
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="Password" />
+        </div>
+        <div class="formControl">
+          <label for="confirmPassword">Repeat Password:</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Repeat Password"
+          />
+        </div>
+        <button type="submit" class="btn">Register</button>
+      </form>
+    </section>
+    <span id="fakeEmail">***Detail Email: george.bluth@reqres.in***</span>
+    <script src="./common.js" defer></script>
+    <script src="./register.js" defer></script>
+  </body>
+</html>

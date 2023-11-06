@@ -1,0 +1,222 @@
+header {
+  background-color: #656464;
+  position: sticky;
+  top: 0;
+  padding: 10px 40px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+input {
+  border-radius: 15px;
+}
+
+button,
+a.addToCard,
+a.register {
+  font-family: "Playpen Sans", cursive;
+  font-weight: bold;
+  padding: 7.5px;
+  border: 3px #fff solid;
+  border-radius: 15px;
+  color: #fff;
+  background-color: #656464;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #656464;
+  border: 3px #656464 solid;
+}
+
+h2 {
+  padding: 20px;
+}
+
+.products,
+.productsInCard {
+  font-family: "Nunito", sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.products li,
+.productsInCard li {
+  margin: 10px;
+}
+
+.products .product,
+.productsInCard .product {
+  max-width: 200px;
+  background-color: #656464;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.products .product h3,
+.productsInCard .product h3 {
+  height: 100px;
+}
+
+.products .product p,
+.productsInCard .product p {
+  height: 30px;
+}
+.products .product img,
+.productsInCard .product img,
+.singleProduct img {
+  border-radius: 15px;
+  width: 100%;
+  height: 200px;
+  aspect-ratio: 1/1;
+}
+
+.cardParent {
+  display: flex;
+}
+
+.cardParent #card {
+  padding-right: 5px;
+}
+
+.cardParent #cardIcon {
+  color: #29292c;
+  padding-left: 5px;
+}
+
+button.cart--added {
+  background-color: #fff;
+  color: #656464;
+  cursor: not-allowed;
+}
+
+.singleProduct {
+  background-color: #656464;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.singleProduct button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.singleProduct p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.singleProduct h1 {
+  text-align: center;
+  color: #29292c;
+  font-weight: bolder;
+  font-size: 25px;
+  padding: 30px;
+}
+.singleProduct img {
+  margin-top: 10px;
+}
+
+#checkout {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+#login form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#login form .loginInputs {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-self: center;
+}
+
+#login form .loginInputs label {
+  margin-top: 10px;
+}
+
+#login form .loginInputs input {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#login form .loginActions {
+  margin-top: 50px;
+  width: fit-content;
+  align-self: center;
+}
+
+#registerSection form {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#registerSection form .formControl {
+  margin-top: 20px;
+}
+
+#registerSection form input {
+  display: flex;
+  padding: 10px;
+  width: 400px;
+  margin-top: 10px;
+}
+
+#registerSection form button {
+  margin-top: 30px;
+}
+
+#registerSection span {
+  display: flex;
+  align-self: center;
+}
+
+#fakeEmail {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: x-large;
+}
+
+.user-card {
+  display: flex;
+}
+
+.user-card .userParent {
+  padding-right: 20px;
+}
