@@ -1,5 +1,5 @@
-const loginAPI = async ({ email, password }) => {
-  const response = await fetch("https://reqres.in/api/register", {
+const loginApi = async ({ email, password }) => {
+  const response = await fetch("https://reqres.in/api/login", {
     method: "POST",
     body: JSON.stringify({
       email,
@@ -19,8 +19,9 @@ document
     event.preventDefault();
     const email = event.target.email.value;
     const password = event.target.password.value;
-    const response = await loginAPI({ email, password });
+    const response = await loginApi({ email, password });
     localStorage.setItem("token", response.token);
+    // document.cookie = `token=${response.token}`;
 
     const user = {
       email: "rayati.mehrdad@gmail.com",

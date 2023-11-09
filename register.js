@@ -28,7 +28,6 @@ document
     }
 
     const response = await loginAPI({ name, email, password });
-    console.log("response", response);
     localStorage.setItem("token", response.token);
 
     const user = {
